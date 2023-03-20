@@ -1,0 +1,41 @@
+:root {
+    color-scheme: light;
+  }
+  
+  body {
+    display: grid;
+    font-size: 1.25rem;
+    place-items: center;
+  }
+  
+  button {
+    font-size: 1.25rem;
+    line-height: 1.35;
+    width: 300px;
+  }
+  
+  .dark {
+    color-scheme: dark;
+  }
+  
+  :root {
+    color-scheme: light;
+  }
+  
+  :root {
+    color-scheme: dark;
+  }
+  
+  :root {
+    background-color: white;
+    color: black;
+  }
+  
+  /* If user prefers a dark appearance */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      background-color: black;
+      color: white;
+    }
+  }
+  
